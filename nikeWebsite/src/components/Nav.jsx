@@ -18,7 +18,7 @@ function Nav() {
               ))}
             </ul>
             <div>
-              <img src={hamburger} alt="Harmburger" width={25} height={25}/>
+              <img className="hidden max-lg:block" src={hamburger} alt="Harmburger" width={25} height={25}/>
             </div>
         </nav>
     </header>
