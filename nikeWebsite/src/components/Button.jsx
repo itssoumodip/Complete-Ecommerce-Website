@@ -1,8 +1,8 @@
 function Button({label, iconURL}) {
   return (
-     <button className="">
+     <button className="flex justify-center items-center gap-2 px-7 py-4 border text-lg leading-none bg-red-400 rounded-full text-white border-red-600">
         {label}
-        <img src={iconURL} alt="arrow right icon" className="ml-2 rounded-full"/>
+        <img src={iconURL} alt="arrow right icon" className="ml-2 rounded-full w-5 h-5"/>
      </button>
   )
 }
