@@ -17,6 +17,9 @@ function Nav() {
                 </li>
               ))}
             </ul>
+            <div>
+              <img src={hamburger} alt="Harmburger" width={25} height={25}/>
+            </div>
         </nav>
     </header>
   )
