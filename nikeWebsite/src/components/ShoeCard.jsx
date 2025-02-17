@@ -1,17 +1,30 @@
-function ShoeCard({imgURL, changeBigShoeImage, bigShoeImage}) {
+const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
   const handleClick = () => {
-    if(bigShoeImage !== imgURL.bigShoe) 
+    if (bigShoeImg !== imgURL.bigShoe) {
       changeBigShoeImage(imgURL.bigShoe);
-  }
-  return (
-    <div className={`border-2 rounded-xl
-      ${bigShoeImage===imgURL
-        ? 'border-red-400' : 'border-transparent' 
-      } cursor-pointer max-sm:flex-1
-      `}
-      onClick={handleClick}
-      ></div>
-  )
-}
+    }
+  };
 
-export default ShoeCard
+  return (
+    <div
+      className={`border-2 rounded-xl ${
+        bigShoeImg === imgURL.bigShoe
+          ? "border-black"
+          : "border-transparent"
+      } cursor-pointer max-sm:flex-1 shadow-lg`} // Added shadow-lg class here
+      onClick={handleClick}
+    >
+      <div className='flex justify-center items-center bg-gray-400 bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 shadow-lg'>
+        <img
+          src={imgURL.thumbnail}
+          alt='shoe collection'
+          width={127}
+          height={103.34}
+          className='object-contain'
+        />
+      </div>
+    </div>
+  );
+};
+
+export default ShoeCard;
