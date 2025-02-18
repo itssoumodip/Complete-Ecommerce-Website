@@ -8,7 +8,7 @@ function PopularProductCard({name, imgURL, price}) {
             <p className="text-xl leading-normal text-gray-500">(4.5)</p>
         </div>
           <h3 className="mt-2 text-2xl leading-normal font-semibold">{name}</h3>
-          <p className="mt-2 font-semibold text-red-400 text-2xl leading-normal">{price}</p>
+          <p className="mt-2 font-semibold text-red-400 text-2xl leading-normal font-poppins">{price}</p>
     </div>
   )
 }
