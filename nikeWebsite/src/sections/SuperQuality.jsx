@@ -12,8 +12,12 @@ function SuperQuality() {
           <span className="text-red-400"> Quality </span>
          Shoes
         </h2>
-        <p className="font-montserrat text-gray-600 text-lg leading-8 mt-6 mb-14 sm:max-w-sm">Discover stylish Nike arivals, quality comfort, and innovation for your active life.</p>
+        <p className="mt-4 lg:max-w-lg text-gray-600">Ensuring premium comfort and style, our meticulously creafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.
+        </p>
+        <p className="mt-6 lg:max-w-lg text-gray-600">Our dedication to detail and excellence ensures your satisfaction</p>
+        <div className="mt-11">
         <Button label="View Details"  />
+        </div>
       </div> 
     </section>
   )
