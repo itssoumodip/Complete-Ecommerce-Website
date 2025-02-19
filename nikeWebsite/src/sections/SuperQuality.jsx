@@ -1,4 +1,5 @@
 import Button from "../components/Button"
+import shoe8 from "../assets/images/shoe8.svg"
 function SuperQuality() {
   return (
     <section
@@ -19,6 +20,9 @@ function SuperQuality() {
         <Button label="View Details"  />
         </div>
       </div> 
+      <div className="flex-1 flex justify-center items-center">
+        <img src={shoe8} alt="shoe8" width={570} height={522}/>
+      </div>
     </section>
   )
 }
