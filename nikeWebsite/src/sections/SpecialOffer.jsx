@@ -20,6 +20,12 @@ function SpecialOffer() {
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
         <Button label="Shop Now" iconURL={arrowRight} />
+        <Button
+            label='Learn more'
+            backgroundColor='bg-white'
+            borderColor='border-slate-gray'
+            textColor='text-slate-gray'
+          />
         </div>
       </div>    
     </section>
