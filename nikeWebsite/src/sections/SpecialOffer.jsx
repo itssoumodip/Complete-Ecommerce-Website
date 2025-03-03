@@ -20,7 +20,6 @@ function SpecialOffer() {
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
         <Button label="Shop Now" iconURL={arrowRight} />
-        <button label="Learn More" className="bg-white border"></button>
         </div>
       </div>    
     </section>
